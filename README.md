@@ -1,2 +1,2 @@
 # Portfolio
-A simple webapp for my personal webspace. 
+#### A simple and responsive webapp for my personal webspace.
