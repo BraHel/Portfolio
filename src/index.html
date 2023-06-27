@@ -37,27 +37,46 @@
         .animatedtext {
             animation-duration: 5.5s;
             position: relative;
-            top: 300px;
+            top: 250px;
             left: 100px;
         }
         
         .statictext{
             position: relative;
-            top: 300px;
+            top: 250px;
             left: 120px;
             width: 450px;
         }
 
         .social {
             position: relative;
-            top: 300px;
+            top: 250px;
             left: 150px;
         }
 
         .tinycat {
             position: relative;
-            top: 650px;
+            top: 625px;
             left: 920px;
+            
+        }
+
+        .tinycat:hover {
+            animation: shake 0.25s;
+        }
+
+        @keyframes shake {
+            0% { transform: translate(1px, 1px) rotate(0deg); }
+            10% { transform: translate(-1px, -2px) rotate(-1deg); }
+            20% { transform: translate(-3px, 0px) rotate(1deg); }
+            30% { transform: translate(3px, 2px) rotate(0deg); }
+            40% { transform: translate(1px, -1px) rotate(1deg); }
+            50% { transform: translate(-1px, 2px) rotate(-1deg); }
+            60% { transform: translate(-3px, 1px) rotate(0deg); }
+            70% { transform: translate(3px, 1px) rotate(-1deg); }
+            80% { transform: translate(-1px, -1px) rotate(1deg); }
+            90% { transform: translate(1px, 2px) rotate(0deg); }
+            100% { transform: translate(1px, -2px) rotate(-1deg); }
         }
 
     </style>
@@ -75,8 +94,7 @@
         </div>
 
         <div class="statictext">
-            <p class="hero-des">I love helping <b>people</b> connect with <b>technology</b>. This is where you can find out more
-                about me and what I am working on. More details about this site can be found on Github.
+            <p class="hero-des">Welcome to my internet signpost! I love helping <b>people</b> connect with <b>technology</b>, and if you want to know more about me you can follow the links below. This is primarily a test-space where I verify deployments work. More details about this simple webapp can be found on Github. The cat is harmless.
             </p>
         </div>
 
@@ -84,14 +102,16 @@
             <a href="https://www.linkedin.com/in/brandon-helvie/">
                 <img src="assets/img/Linkedin-logo.png" alt="LinkedIn" class="icon">
             </a>
+
+            <a href="https://github.com/BraHel/Portfolio">
+                <img src="assets/img/github128.png" alt="Github" class="icon">
+            </a>
             
             <a href="https://mastodon.social/@brandonhelvie">
                 <img src="assets/img/mastodon.png" alt="Mastodon" class="icon">
             </a>
 
-            <a href="https://github.com/BraHel/Portfolio">
-                <img src="assets/img/github128.png" alt="Github" class="icon">
-            </a>
+            
 
 
         </div>
