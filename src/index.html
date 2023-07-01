@@ -28,8 +28,16 @@
             margin: 0;
             background-position:left top, center top;
             background-attachment:scroll, scroll;
+            background-repeat: no-repeat;
 
-        }      
+        } 
+        
+        .tinycat {
+            position: absolute;
+            top: 900px;
+            left: 900px;
+            
+        }
 
         
         .icon {
@@ -44,12 +52,6 @@
             left: 100px;
         }
 
-        .tinycat {
-            position: absolute;
-            top: 85%;
-            left: 85%;
-            
-        }
 
         .folded-paper {
             width: 200px;
@@ -171,6 +173,12 @@
             </div>
         </div>
 
+        <div class="tinycat">
+            <a>
+                <img src="assets/img/tinychilicute.png" alt="Chili" class="icon">
+            </a>
+        </div>
+
         <div class="folded-paper" onclick="this.classList.toggle('unfolded')">
             <div class="folded-paper-text">Open Me</div>
             <div class="folded-paper-content">
@@ -201,11 +209,7 @@
             
         </div>
 
-        <div class="tinycat">
-            <a>
-                <img src="assets/img/tinychilicute.png" alt="LinkedIn" class="icon">
-            </a>
-        </div>
+
 
         
     </body>
